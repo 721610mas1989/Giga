@@ -1,0 +1,529 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear {
+    clear:both;
+}
+
+#page {
+    background: #262626;
+    height: 110px;
+    width: 100%;
+}
+#header {
+    margin: 0 auto;
+    height: 110px;
+    width: 965px ;
+}
+.logo {
+   float: left;
+   margin-top: 25px;
+}
+.text-header {
+    color: dimgray;
+    display: block;
+    float: right;
+    font-size: 13px;
+    margin-top: 45px;
+}
+#menu {
+    background-color: #f79c26 ;
+    height: 60px;
+    width: 100%;
+}
+#navigator {
+    margin: 0 auto;
+    height: 60px;
+    width: 965px;
+}
+#navigator ul li {
+    float: left;
+}
+#navigator ul li a {
+    color: black;
+    display: block;
+    height: 60px;
+    font-size: 10px;
+    line-height: 60px;
+    padding: 0 23px;
+    text-decoration: none;
+}
+#navigator ul li a:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: #f79c26;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+#content {
+    background-color:#ebebeb ;
+    width: 100%;
+}
+#top-content {
+    height: 90px;
+    margin: 0 auto;
+    width: 965px;
+}
+.text-content {
+    color: darkgray;
+    font-size: 12px;
+    padding-top: 12px;
+}
+#entrance {
+    float: left;
+    margin-top: 20px;
+    width: 465px;
+}
+.text-field{
+    height: 22px;
+    margin-left: 10px;
+    width: 160px;
+}
+input[value='Log in']{
+    background-color: black;
+    color: #f79c26;
+    height: 28px;
+    margin-left: 10px;
+    width: 50px;
+}
+.smile {
+    float: left;
+}
+.basket {
+    float: left;
+    margin-left: 40px;
+}
+.text-basket-top {
+    color: #f79c26 ;
+    font-size: 12px;
+    margin-left: 93px;
+}
+.text-basket-bottom {
+    color: darkgray;
+    font-size: 11px;
+    margin-left: 93px;
+}
+#center-content {
+    background-color: white;
+    margin: 0 auto;
+    padding-top:10px;
+    width: 965px;
+}
+#basket {
+    float: right;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    width: 430px;
+    line-height: 18px;
+}
+#search {
+    background-color: #ebebeb;
+    border-radius: 10px 10px 0 0;
+    margin-left: 10px;
+    width: 310px;
+}
+#search-item {
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    height: 30px;
+    width: 100%;
+}
+.photo-search {
+    float: left;
+    margin-left: 15px;
+}
+.text-search {
+    color: #f79c26 ;
+    font-size: 13px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#one-search {
+    margin-top: 15px;
+}
+.all-search {
+    background-color: #ebebeb;
+    border: 1px solid darkgrey;
+    border-right: none;
+    float: left;
+    height: 26px;
+    margin-left: 5px;
+    width: 260px;
+}
+input[placeholder='Product'] {
+    margin-top: 15px;
+}
+.text-search-two {
+    color: darkgray;
+    font-family: 'Lora', serif;
+    float: left;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top:17px ;
+}
+input[value='Search']{
+    background-color:#f79c26 ;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 80px;
+}
+#sidebar {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.orange-square-two {
+    margin-top: 15px;
+}
+#sidebar > ul > li > a {
+    background-color:#ebebeb;
+    border-radius:10px;
+    color: black;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#sidebar > ul > li {
+    width:310px ;
+}
+#sidebar .floats a  {
+    border-bottom: 2px solid darkgray;
+    color: black;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    width: 310px;
+}
+#sidebar ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#sidebar li .floats {
+    display: none;
+}
+#sidebar li:hover .floats {
+    display: block;
+}
+#left-content {
+    float: left;
+    margin-left: 2px;
+}
+#right-content{
+    float: left;
+    height: 935px;
+    margin-left: 1px;
+    width: 633px;
+}
+#right-top {
+    background-color: #121212;
+    border: 3px solid black;
+    float: left;
+    height: 335px;
+    margin-left: 10px;
+    position: relative;
+    width: 615px;
+}
+#left-button {
+    position: absolute;
+    left: 360px;
+    bottom: 30px;
+}
+#right-button {
+    position: absolute;
+    bottom: 30px;
+    left: 525px;
+}
+
+.text-bold-right-top {
+    color: #f79c26;
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.text-light-right-top {
+    color: #f8bb49;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.a-laptop {
+    margin-top: 38px;
+}
+.big-price {
+  margin-left: 55px;
+    margin-bottom: 15px;
+
+}
+.product {
+    background-color: #f79c26;
+    float: left;
+    height: 282px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 305px;
+}
+.apple-i-pod {
+    height: 30px;
+    width: 100%;
+}
+.text-apple {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.notebooks {
+    background-color: #f3f3f3 ;
+    border-right: 1px solid darkgray;
+    border-left: 1px solid darkgrey;
+    height: 140px;
+    width: 303px;
+}
+.notebooks-photo {
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.text-bold {
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.price {
+    font-size: 14px;
+    margin-right: 15px;
+    float: right;
+    margin-top: 5px;
+    color: white;
+}
+.text-light {
+    color: dimgray;
+    font-family: 'Titillium Web', sans-serif;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+input[value='View product']{
+    border-radius: 5px;
+    background-color: #262626;
+    border: 1px solid black;
+    color: white;
+    float: left;
+    height: 30px;
+    margin-left: 50px;
+    width: 95px;
+    font-family: 'Titillium Web', sans-serif;
+}
+input[value='Add to cart']{
+    border-radius: 5px;
+    background-color: #f8bb49;
+    border: 1px solid #f79c26;
+    color: white;
+    height: 30px;
+    margin-right: 50px;
+    width: 85px;
+    float: right;
+}
+#bottom-content {
+    height: 230px;
+    margin: 0 auto;
+    width: 965px;
+}
+#quicklinks {
+    border-right: 1px solid gainsboro;
+    float: left;
+    height: 190px;
+    margin-top: 20px;
+    width: 225px ;
+}
+.text-quicklinks {
+    color: black;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.list ul li a {
+    color: #f79c26;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.list ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#hot-products {
+    float: left;
+    height: 190px;
+    margin-top: 20px;
+    width: 250px;
+}
+.text-hot-products {
+    color: black;
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#your-basket {
+    background-color: gainsboro;
+    border-radius: 5px;
+    float: right;
+    height: 165px;
+    margin-top: 20px;
+    width: 480px;
+}
+.text-your-basket {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.one {
+    border-bottom: 1px solid dimgray;
+    height: 40px;
+    margin-left: 14px;
+    width:450px;
+}
+.two {
+    color: dimgray;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+}
+.price-your-basket {
+    color: black;
+    display: block;
+    float: right;
+    font-size: 14px;
+
+    line-height: 40px;
+}
+.three {
+    border: none;
+}
+#all-footer {
+    background-color:  #ebebeb;
+    width: 100%;
+    height: 80px;
+}
+.text-footer {
+    color: darkgray;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 75px;
+}
+#footer {
+    border-top: 4px solid darkgray;
+    margin: 0 auto;
+    width: 965px;
+
+}
+.text-footer-two {
+    float: right;
+}
+
+
+#drop-down-brand {
+    display: none;
+    margin-left: 5px;
+    width: 260px;
+}
+#drop-down-brand ul li a {
+   color: blue;
+   display: block;
+   height: 20px;
+   line-height: 20px;
+   text-decoration: none;
+}
+#drop-down-brand ul li a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+#drop-down-product {
+    display: none;
+    margin-left: 5px;
+    width: 260px;
+}
+#drop-down-product ul li a {
+    color: blue;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none ;
+}
+#drop-down-product ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+
+
